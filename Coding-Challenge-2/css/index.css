@@ -1,0 +1,156 @@
+
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+@media (max-width: 600px)
+{   .heading
+    {
+        display: none;
+    }
+
+    .content
+    {
+        display: none;
+    }
+
+    .navigation
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fourth
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 990px)
+{
+    .heading
+    {
+        display: none;
+    }
+
+    .first
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .second
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .up
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .fourth
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .down
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .content
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 991px)
+{
+    .heading
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .second
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .third
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .fourth
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .up
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .down
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side
+    {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+}
